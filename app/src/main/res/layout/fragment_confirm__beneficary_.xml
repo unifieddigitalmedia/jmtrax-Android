@@ -1,0 +1,283 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:weightSum="1">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileView" android:padding="15dp"
+            android:layout_weight="1"
+            android:text="@string/bprofile"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/firstnameplaceholder"
+            android:hint="@string/bfirstname"
+            android:padding="10dp"
+            android:inputType=
+                "textEmailAddress|textCapSentences|textAutoCorrect"
+            android:background="@drawable/edit_text"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/lastnameplaceholder"
+            android:hint="@string/blastname"
+            android:padding="10dp"
+            android:inputType=
+                "textEmailAddress|textCapSentences|textAutoCorrect"
+            android:background="@drawable/edit_text"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:ems="10"
+            android:id="@+id/phoneplaceholder"
+            android:hint="@string/bphone"
+            android:inputType=
+                "textCapSentences|textAutoCorrect"
+            android:background="@drawable/edit_text"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/errortextView"
+            android:textColor="#ff0009"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:gravity="center_vertical|center_horizontal" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:text="@string/bbank"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerbank"
+            android:layout_gravity="center_vertical"
+            android:layout_weight='50'
+            android:padding="5dp"/>
+
+
+        <EditText
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/usernameplaceholder"
+            android:hint="@string/bbankhint"
+            android:padding="10dp"
+            android:inputType=
+                "textEmailAddress|textCapSentences|textAutoCorrect"
+            android:background="@drawable/edit_text"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/passwordplaceholder"
+            android:hint="@string/bbankaccount"
+            android:padding="10dp"
+            android:inputType=
+                "textEmailAddress|textCapSentences|textAutoCorrect"
+            android:background="@drawable/edit_text"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordheading" android:padding="15dp"
+            android:layout_weight="1"
+            android:text="@string/breq"
+            android:textColor="@color/red"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordreq1" android:padding="15dp"
+            android:layout_weight="1"
+            android:textColor="@color/red"
+            android:text="@string/bankreq1"
+            android:gravity="center_vertical" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:textColor="@color/red"
+            android:text="@string/payref"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:textColor="@color/red"
+            android:layout_gravity="center_vertical"
+            android:layout_weight='50' android:padding="5dp"/>
+
+
+        <EditText
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/cpasswordplaceholder"
+            android:hint="@string/bpayref"
+            android:padding="10dp"
+            android:inputType=
+                "textCapSentences|textAutoCorrect"
+            android:background="@drawable/edit_text"
+            android:layout_marginLeft="10dp"
+            android:layout_weight='50'/>
+
+
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner1"
+            android:layout_gravity="center_vertical"
+            android:layout_weight='30'
+            android:textColor="@color/red"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailplaceholder"
+            android:inputType="textCapSentences|textAutoCorrect"
+            android:hint="@string/bpayreason"
+            android:padding="10dp"
+            android:background="@drawable/edit_text"
+            android:layout_marginLeft="10dp"
+            android:layout_weight='70'
+            />
+
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:layout_gravity="center_vertical"
+            android:layout_weight='30'
+            android:padding="5dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shopacc"
+            android:inputType="textCapSentences|textAutoCorrect"
+            android:hint="@string/shoppacc"
+            android:padding="10dp"
+            android:background="@drawable/edit_text"
+            android:layout_marginLeft="10dp"
+            android:layout_weight='70'
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:layout_marginTop="10dp">
+
+
+            <Button                 android:background="@color/buttoncolor"             android:paddingBottom="10dp"                 android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/add"
+                android:text="@string/button_add"
+android:paddingRight="5dp"
+                android:layout_weight="1"
+                />
+
+            <Button                 android:background="@color/buttoncolor"             android:paddingBottom="10dp"                 android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/update"
+                android:text="@string/button_update"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="bottom" android:weightSum="1">
+
+
+            <Button                 android:background="@color/buttoncolor"             android:paddingBottom="10dp"                 android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/delete"
+                android:text="@string/button_delete"
+
+                android:layout_weight="0.5"
+                />
+
+            <Button                 android:background="@color/buttoncolor"             android:paddingBottom="10dp"                 android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/send"
+                android:text="@string/button_send"
+
+                android:layout_weight="0.5"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,251 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/transferCal" android:padding="10dp"
+        android:text="@string/transferCal"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Enter an amount to get started"
+        />
+
+
+
+    <EditText
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/firstnameplaceholder"
+        android:hint="@string/GBP"
+        android:padding="10dp"
+        android:inputType=
+            "number"  android:background="@drawable/edit_text"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:id="@+id/lastnameplaceholder"
+        android:hint="@string/FEE"
+        android:padding="10dp"
+        android:inputType=
+            "number"  android:background="@drawable/edit_text"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:ems="10"
+        android:id="@+id/phoneplaceholder"
+        android:hint="@string/NGN"
+        android:inputType=
+            "number"  android:background="@drawable/edit_text"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/usernameplaceholder"
+        android:hint="@string/DUE"
+        android:padding="10dp"
+        android:inputType=
+            "number"  android:background="@drawable/edit_text"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/errortextView"
+        android:padding="5dp"
+        android:textColor="#ff0009"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/transferSummary" android:padding="10dp"
+        android:text="@string/transferSummary"
+        />
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="2">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:text="Amount we will send"
+
+            android:gravity="center_vertical" />
+
+
+        <TextView
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/amountsent"
+            android:hint="0.00 GBP"
+            android:textAlignment="viewEnd" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="2">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:text="Transfer fee"
+
+            android:gravity="center_vertical" />
+
+
+        <TextView
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:ems="10"
+            android:id="@+id/fee"
+            android:hint="0.00 GBP"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="2">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:text="Total price"
+
+            android:gravity="center_vertical" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:id="@+id/transfertotal"
+            android:hint="0.00 GBP"
+            android:textAlignment="viewEnd"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount paid"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:id="@+id/transferpaid"
+            android:hint="0.00 NGN"
+            android:layout_weight="0.5"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button                 android:background="@color/buttoncolor"             android:paddingBottom="10dp"                 android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:id="@+id/login"
+            android:text="@string/button_start" android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

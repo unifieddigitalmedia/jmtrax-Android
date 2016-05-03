@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="payment_ref_array">
+        <item>Select a payment method...</item>
+
+        <item>Bank Transfer</item>
+
+    </string-array>
+
+
+    <string-array name="payment_reason_array">
+        <item>Select a reason for transfer...</item>
+        <item>Family</item>
+        <item>Pret</item>
+        <item>Commercial</item>
+        <item>Help</item>
+    </string-array>
+
+
+    <string-array name="pay_methods">
+
+        <item>Bank</item>
+
+
+
+    </string-array>
+
+
+
+
+    <string-array name="secret_questions">
+
+        <item>What is you secret question...</item>
+        <item>What is the first name of your favourite uncle?</item>
+        <item>Where did you meet your spouse?</item>
+        <item>What is your eldest cousins name?</item>
+        <item>What is your eldest childs nickname?</item>
+        <item>What is the first name of your eldest niece?</item>
+        <item>What is the first name of your eldest nephew?</item>
+        <item>What is the first name of your favourite aunt?</item>
+        <item>Where did you spend your honeymoon?</item>
+
+
+    </string-array>
+
+
+
+    <string-array name="home_array">
+
+
+         <item
+             >Transfer Calculator</item>
+
+         <item
+             >Terms and Conditions</item>
+
+    </string-array>
+
+    <string-array name="home_menu_array">
+
+
+          <item
+              >Fee Calculator</item>
+
+         <item
+             >Log In</item>
+
+         <item
+             >Website</item>
+
+
+         <item
+             >Terms and Conditions</item>
+
+         <item
+             >Contact Us</item>
+
+
+
+
+    </string-array>
+
+</resources>

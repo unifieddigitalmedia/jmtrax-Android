@@ -1,0 +1,238 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileView" android:padding="15dp"
+            android:layout_weight="1"
+            android:text="@string/profile"
+            android:gravity="center_vertical|center_horizontal" />
+
+
+        <EditText
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/firstnameplaceholder"
+            android:hint="@string/firstnameplaceholder"
+            android:padding="10dp"
+            android:background="@drawable/edit_text"
+            android:inputType=
+                "textEmailAddress|textCapSentences|textAutoCorrect"/>
+
+
+        <EditText
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:id="@+id/lastnameplaceholder"
+            android:hint="@string/lastnameplaceholder"
+            android:padding="10dp"
+            android:background="@drawable/edit_text"
+            android:inputType=
+                "textEmailAddress|textCapSentences|textAutoCorrect"/>
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:weightSum="2">
+
+
+
+            <TextView
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:ems="10"
+                android:text="+44"
+                android:inputType="textCapSentences|textAutoCorrect"
+                android:gravity="center_vertical|center_horizontal" />
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:ems="10"
+                android:id="@+id/phoneplaceholder"
+                android:hint="@string/phoneplaceholder"
+                android:inputType=
+                    "textCapSentences|textAutoCorrect"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="10dp"
+                />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailplaceholder"
+            android:inputType="textEmailAddress"
+            android:hint="@string/emailplaceholder"
+            android:background="@drawable/edit_text"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/errortextView" android:padding="5dp"
+            android:textColor="#ff0009"
+            android:layout_weight="1"
+
+            android:gravity="center_vertical|center_horizontal" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:text="@string/personaladdressdetails"
+            android:gravity="center_vertical|center_horizontal" />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/townplaceholder"
+                android:inputType=
+                    "textEmailAddress|textCapSentences|textAutoCorrect"
+                android:hint="@string/townplaceholder"
+                android:padding="10dp"
+                android:layout_weight="0.60"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/postcodeplaceholder"
+                android:inputType=
+                    "textEmailAddress|textCapSentences|textAutoCorrect"
+                android:hint="@string/postcodeplaceholder"
+                android:padding="10dp"
+                android:layout_weight="0.40"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+
+        </LinearLayout>
+
+        <EditText
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/passwordplaceholder"
+            android:hint="@string/firstline"
+            android:padding="10dp"
+            android:inputType=
+                "textEmailAddress|textCapSentences|textAutoCorrect"
+            android:background="@drawable/edit_text"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <EditText
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/cpasswordplaceholder"
+            android:hint="@string/secondline"
+            android:padding="10dp"
+            android:inputType=
+                "textEmailAddress|textCapSentences|textAutoCorrect"
+            android:background="@drawable/edit_text"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/countyplaceholder"
+            android:inputType=
+                "textEmailAddress|textCapSentences|textAutoCorrect"
+            android:hint="@string/countyplaceholder"
+            android:padding="10dp"
+            android:background="@drawable/edit_text"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            >
+
+
+            <Button                 android:background="@color/buttoncolor"
+
+                android:paddingBottom="10dp"                 android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/confirm"
+                android:text="@string/button_update"
+                android:paddingTop="10dp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

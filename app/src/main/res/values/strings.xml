@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">JM Transfers</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="white">#FFFFFF</color>
+
+    <string name="homepage_terms">The activity of authorized users may be monitored. If monitoring reveals evidence of criminal activity, systems personnel may provide the evidence to management and/or law enforcement officials.Just Computers trading as JM Transfer and JM Trax have a comprehensive compliance program within the organisation to ensure compliance with government rules, regulations and approved guidance. We do not want JM Transfer and JM Trax services to be used in illegal money laundering activities or terrorist activities. It is our policy that we follow both the letter and the spirit of the law and the regulations of both the United Kingdom and Nigeria in which JM Transfer and JM Trax operates.All remittances processed by JM Transfer and JM Trax are screened with enhanced controls to prevent money laundering and terrorist financing. It is JM Transfer and JM Trax policy to follow both the letter and spirit of the law and regulations.Throughout the world, Governments have reinforced their commitment to the fight against money laundering and terrorist financing. New laws have imposed additional obligations on firms and individuals in the financial services sector to join in the fight.JM Transfer and JM Trax has an extensive training and awareness programme, a rigorous transaction monitoring system and a robust culture of compliance.JM Transfer and JM Trax works closely with regulatory bodies."
+</string>
+
+
+    <string name="firstnameplaceholder">what is you first name</string>
+    <string name="lastnameplaceholder">what is your last name</string>
+    <string name="phoneplaceholder">what is your phone number </string>
+    <string name="emailplaceholder">what is your email </string>
+    <string name="passwordplaceholder">please choose a password </string>
+    <string name="cpasswordplaceholder">please confirm your password </string>
+    <string name="usernameplaceholder">please choose a username </string>
+
+    <string name="button_cancel">Cancel</string>
+
+    <string name="button_sign">Next</string>
+    <string name="title_activity_home_page_blank">HomePageBlankActivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string name="button_confirm">CONFIRM</string>
+    <string name="townplaceholder">Town</string>
+    <string name="countyplaceholder">County</string>
+    <string name="postcodeplaceholder">Postcode</string>
+    <string name="button_send">TRANSFER</string>
+    <string name="button_update">UPDATE</string>
+    <string name="button_delete">DELETE</string>
+    <string name="button_add">ADD</string>
+    <string name="title_activity_termsand_conditions">TermsandConditionsActivity</string>
+    <string name="button_deactivate">Deactivate</string>
+    <string name="button_start">GET STARTED</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="send">SEND</string>
+    <string name="message">MESSAGE</string>
+    <string name="subject">SUBJECT</string>
+    <string name="to">TO</string>
+    <string name="your">YOUR EMAIL</string>
+    <string name="title_activity_transfer_calulator">TransferCalulator</string>
+    <string name="title_activity_terms_and_conditions">TermsAndConditions</string>
+    <string name="DUE">GBP DUE £</string>
+    <string name="NGN">NGN DUE :</string>
+    <string name="FEE">FEE £:</string>
+    <string name="GBP">GBP £:</string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="login">To get started log in or register</string>
+    <string name="forgot">Forgot password</string>
+    <string name="button_login">Log in</string>
+    <string name="registertitleView1">Dont have an account yet?</string>
+    <string name="registertitleView2">Register with us for free</string>
+    <string name="registertitleView3">The Smarter Way to Send Money</string>
+    <string name="registertitleView4">The Fastest Growing Money Transfer Company</string>
+    <string name="registertitleView5">Uniting Friends, family and people with Possibilities</string>
+    <string name="title_activity_register_tab">RegisterTabActivity</string>
+    <string name="profile">Profile information</string>
+    <string name="passwordheading">Password requirements</string>
+    <string name="passwordreq1">At lease 8 characters</string>
+    <string name="button_register">Register now</string>
+    <string name="transferCal">Transfer calculator</string>
+    <string name="transferSummary">Your transfer summary</string>
+    <string name="Amountdefault">0.00 GBP</string>
+    <string name="bprofile">Beneficiary details</string>
+    <string name="bfirstname">Firstname</string>
+    <string name="blastname">Lastname</string>
+    <string name="bphone">Phone</string>
+    <string name="bbank">Beneficary bank details</string>
+    <string name="bbankhint">Bank</string>
+    <string name="bbankaccount">Account number</string>
+    <string name="breq">Bank details requierments</string>
+    <string name="bankreq1">Account number must be at least 10 characters in length</string>
+    <string name="payref">Payment details</string>
+    <string name="bpayref">Payment ref</string>
+    <string name="bpayreason">Reason for transfer</string>
+    <string name="settingsId">User details</string>
+    <string name="userName">Username</string>
+    <string name="userQuestion">Secret question</string>
+    <string name="userPassword">Secret answer</string>
+    <string name="useremail">Email</string>
+    <string name="userPass">Password</string>
+    <string name="userCpass">Confirm password</string>
+    <string name="transstatus">Status</string>
+    <string name="ordernumber">Transfer number</string>
+    <string name="transferdate">Transfer date</string>
+    <string name="paymentreason">Reason for transfer</string>
+    <string name="paymentref">Payment reference</string>
+    <string name="instruction1">Select a beneficiary to get started</string>
+    <string name="personaladdressdetails">Address details</string>
+    <string name="firstline">First line</string>
+    <string name="secondline">Second line</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="title_activity_trail">TrailActivity</string>
+    <string name="checkout">Checkout</string>
+    <string name="paymentoptions">How would you like to pay ?</string>
+    <string name="transferdetails">Transfer Details</string>
+    <string name="bank">Bank</string>
+    <string name="account">Account number</string>
+    <string name="title_activity_payment_method">PaymentMethodActivity</string>
+    <string name="title_activity_receipt">ReceiptActivity</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_activity_main_dashboard">MainDashboardActivity</string>
+    <string name="shoppacc">Payye Account</string>
+    <string name="title_activity_money_transfer_calculator">MoneyTransferCalculator</string>
+    <string name="title_activity_account">Account</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_dashboard__fragment">Dashboard_Fragment</string>
+    <string name="title_activity_forgot__password">Forgot_Password</string>
+    <string name="title_activity_beneficary__list">Beneficary_List</string>
+    <string name="title_activity_confirm__beneficary">Confirm_Beneficary</string>
+    <string name="title_activity_confirm__sender">Confirm_Sender</string>
+    <string name="title_activity_confirm__transfer">Confirm_Transfer</string>
+    <string name="title_activity_confirm__pay">Confirm_Pay</string>
+    <string name="title_activity_transfer__receipt">Transfer_Receipt</string>
+    <string name="title_activity_transfer__receipt_">Transfer_Receipt_Activity</string>
+    <string name="title_activity_sign__address">Sign_Address</string>
+
+
+</resources>
